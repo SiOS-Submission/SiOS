@@ -20,6 +20,9 @@ Static analysis result of network service library in iOS app.
 ## GCDWebServerStud:
 Static script for analyzing the third-party network service library GCDWebServer.
 
+## SiOS/Misc/ObfsStud
+A survey on iOS app obfuscation.
+
 ## PoC (Prove of Concept)
 Script for attacking waze, qqbrowser, now, etc.
 

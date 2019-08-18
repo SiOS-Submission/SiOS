@@ -16,6 +16,8 @@ Objective-C peculiarities, including Blocks, Category, Delegate, etc.
 Query for official/thrid-party network serivce provider library in our iOS app collection. 
 ## Data analysis/lib_dist:
 Static analysis result of network service library in iOS app.
+## Data analysis/call stack analysis/
+Weighted edit distance script based on result of dynamic analysis result.
 
 ## GCDWebServerStud:
 Static script for analyzing the third-party network service library GCDWebServer.

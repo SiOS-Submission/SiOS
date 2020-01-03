@@ -32,6 +32,6 @@ Script for attacking waze, qqbrowser, now, etc.
 1. We mitigate original framework to Ubuntu.  
 2. We supplement the new ARM instructions to the LLVM based disassembler module Dagger. Moreover, as the IR of a moderate app will always consume gigabytes of memory, some instructions are simplified to shrink the memory usage, such as removing bitwise binary operations. 
 3. We model complex objects (eg, NSDictionary) and perform analysis on them.  
-4. We convert inter-procedural data-flow analysis to intra-procedural since the inter-procedural analysis always takes days to analyze a moderate binary. We only analyze the function enclosing the reference to the expected class object name or method name of a third-party library.  
+4. We convert inter-procedural data-flow analysis to on-demand inter-procedural since the inter-procedural analysis always takes days to analyze a moderate binary. We only analyze the function enclosing the reference to the expected class object name or method name of a third-party library.  
 
 Access the framework via: https://github.com/pwnzen-mobile  
